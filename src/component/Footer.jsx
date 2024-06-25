@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { FaAngleRight, FaInstagram, FaLinkedin, FaStar,FaTelegram } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
-import mainlogo from '../component/mainlogo.jpeg'
+import footerlogo from '../component/footerlogo.png'
 const Footer = () => {
   const navigate = useNavigate();
   return (
@@ -101,7 +101,7 @@ const Footer = () => {
                     >
                       <img
                         style={{ width: "100px" }}
-                        src={mainlogo}
+                        src={footerlogo}
                         alt="logo"
                       />
                     </div>
