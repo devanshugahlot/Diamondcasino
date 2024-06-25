@@ -1,0 +1,54 @@
+/* AppDownload.css */
+
+.app-download {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    /* Add padding as needed */
+    background-color: #fff;
+    /* Add background color as needed */
+    /* Add any other styles as needed */
+}
+
+.download-button {
+    /* Add button styles */
+}
+
+@media all and (min-width:770px) {
+    .ALL-GAMES-SPAN{
+        display: none;
+    }
+    .default-button{
+                display: none;
+
+    }
+    .lab-btn{
+                display: none;
+    }
+}
+
+.lab-btn {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* line-height: 100px; */
+    color: #fff;
+    font-size: 16px;
+    
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    /* padding: 0 30px;
+    */
+    /* width: 90%; */
+    border-radius: 10px;
+    /* margin-top: 40px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    background-image: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%);
+
+}
